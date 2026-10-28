@@ -1,0 +1,28 @@
+PERIPHERAL SYSCTL1 base=0x40022000 addressBlock.size=[0x204]
+  0x0010 MCLKPINDIR                       acc=read-write size=32 reset=0x00000000 mask=0x00000001
+          0+1  MCLKPINDIR                     acc=read-write reset=0x00
+  0x0030 DSPNMISRCSEL                     acc=read-write size=32 reset=0x00000005 mask=0x8000001f
+          0+5  NMISRCSEL                      acc=read-write reset=0x05
+         31+1  NMIEN                          acc=read-write reset=0x00
+  array FCCTRLSEL%s n=8 offsets=0x40..0x5c stride=0x4
+  0x0040 FCCTRLSEL0                       acc=read-write size=32 reset=0x00000000 mask=0x03030303
+          0+2  SCKINSEL                       acc=read-write reset=0x00
+          8+2  WSINSEL                        acc=read-write reset=0x00
+         16+2  DATAINSEL                      acc=read-write reset=0x00
+         24+2  DATAOUTSEL                     acc=read-write reset=0x00
+  array SHAREDCTRLSET%s n=2 offsets=0x80..0x84 stride=0x4
+  0x0080 SHAREDCTRLSET0                   acc=read-write size=32 reset=0x00000000 mask=0x00ff0777
+          0+3  SHAREDSCKSEL                   acc=read-write reset=0x00
+          4+3  SHAREDWSSEL                    acc=read-write reset=0x00
+          8+3  SHAREDDATASEL                  acc=read-write reset=0x00
+         16+1  FC0DATAOUTEN                   acc=read-write reset=0x00
+         17+1  FC1DATAOUTEN                   acc=read-write reset=0x00
+         18+1  F20DATAOUTEN                   acc=read-write reset=0x00
+         19+1  FC3DATAOUTEN                   acc=read-write reset=0x00
+         20+1  FC4DATAOUTEN                   acc=read-write reset=0x00
+         21+1  FC5DATAOUTEN                   acc=read-write reset=0x00
+         22+1  FC6DATAOUTEN                   acc=read-write reset=0x00
+         23+1  FC7DATAOUTEN                   acc=read-write reset=0x00
+  0x0200 RXEVPULSEGEN                     acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  RXEVPULSEGEN                   acc=read-write reset=0x00
+

@@ -1,0 +1,34 @@
+PERIPHERAL MUA base=0x40110000 addressBlock.size=[0x68]
+  0x0000 VER                              acc=read-only size=32 reset=0x01000001 mask=0xffffffff
+          0+16 FEATURE                        acc=read-only reset=0x0001
+         16+8  MINOR                          acc=read-only reset=0x00
+         24+8  MAJOR                          acc=read-only reset=0x01
+  0x0004 PAR                              acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 PARAMETER                      acc=read-only reset=0x00000000
+  array TR[%s] n=4 offsets=0x20..0x2c stride=0x4
+  0x0020 TR[0]                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 DATA                           acc=read-write reset=0x00000000
+  array RR[%s] n=4 offsets=0x40..0x4c stride=0x4
+  0x0040 RR[0]                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 DATA                           acc=read-write reset=0x00000000
+  0x0060 SR                               acc=read-write size=32 reset=0x00f00080 mask=0xfff007ff
+          0+3  Fn                             acc=read-only reset=0x00
+          4+1  EP                             acc=read-only reset=0x00
+          5+2  PM                             acc=read-only reset=0x00
+          7+1  RS                             acc=read-only reset=0x01
+          8+1  FUP                            acc=read-only reset=0x00
+          9+1  RDIP                           acc=read-write reset=0x00
+         10+1  RAIP                           acc=read-write reset=0x00
+         20+4  TEn                            acc=read-only reset=0x0f
+         24+4  RFn                            acc=read-only reset=0x00
+         28+4  GIPn                           acc=read-write reset=0x00
+  0x0064 CR                               acc=read-write size=32 reset=0x00000100 mask=0xffff17ff
+          0+3  Fn                             acc=read-write reset=0x00
+          5+1  MUR                            acc=read-write reset=0x00
+          6+1  RDIE                           acc=read-write reset=0x00
+         12+1  RAIE                           acc=read-write reset=0x00
+         16+4  GIRn                           acc=read-write reset=0x00
+         20+4  TIEn                           acc=read-write reset=0x00
+         24+4  RIEn                           acc=read-write reset=0x00
+         28+4  GIEn                           acc=read-write reset=0x00
+

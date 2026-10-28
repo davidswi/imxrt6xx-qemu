@@ -1,0 +1,50 @@
+PERIPHERAL PMC base=0x40135000 addressBlock.size=[0x34]
+  0x0004 STATUS                           acc=read-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  ACTIVEFSM                      acc=read-only reset=0x00
+  0x0008 FLAGS                            acc=read-write size=32 reset=0x00170000 mask=0xf9570000
+         16+1  PORCOREF                       acc=read-write reset=0x01
+         17+1  POR1V8F                        acc=read-write reset=0x01
+         18+1  PORAO18F                       acc=read-write reset=0x01
+         20+1  LVDCOREF                       acc=read-write reset=0x01
+         22+1  HVDCOREF                       acc=read-write reset=0x00
+         24+1  HVD1V8F                        acc=read-write reset=0x00
+         27+1  RTCF                           acc=read-write reset=0x00
+         28+1  AUTOWKF                        acc=read-write reset=0x00
+         29+1  INTNPADF                       acc=read-write reset=0x00
+         30+1  RESETNPADF                     acc=read-write reset=0x00
+         31+1  DEEPPDF                        acc=read-write reset=0x00
+  0x000c CTRL                             acc=read-write size=32 reset=0x00200000 mask=0x33f000f1
+          0+1  APPLYCFG                       acc=read-write reset=0x00
+          4+1  BUFEN                          acc=read-write reset=0x00
+         20+1  LVDCOREIE                      acc=read-write reset=0x00
+         21+1  LVDCORERE                      acc=read-write reset=0x01
+         22+1  HVDCOREIE                      acc=read-write reset=0x00
+         23+1  HVDCORERE                      acc=read-write reset=0x00
+         24+1  HVD1V8IE                       acc=read-write reset=0x00
+         25+1  HVD1V8RE                       acc=read-write reset=0x00
+         28+1  AUTOWKEN                       acc=read-write reset=0x00
+         29+1  INTRPADEN                      acc=read-write reset=0x00
+  0x0010 RUNCTRL                          acc=read-write size=32 reset=0x00000021 mask=0x0000003f
+          0+6  CORELVL                        acc=read-write reset=0x21
+  0x0014 SLEEPCTRL                        acc=read-write size=32 reset=0x00000021 mask=0x0000003f
+          0+6  CORELVL                        acc=read-write reset=0x21
+  0x0018 LVDCORECTRL                      acc=read-write size=32 reset=0x00000000 mask=0x0000000f
+          0+4  LVDCORELVL                     acc=read-write reset=0x00
+  0x0024 AUTOWKUP                         acc=read-write size=32 reset=0x00000000 mask=0x0000ffff
+          0+16 AUTOWKTIME                     acc=read-write reset=0x0000
+  0x0028 PMICCFG                          acc=read-write size=32 reset=0x00000073 mask=0x000000ff
+          0+1  VDDCOREM0                      acc=read-write reset=0x01
+          1+1  VDDCOREM1                      acc=read-write reset=0x01
+          2+1  VDDCOREM2                      acc=read-write reset=0x00
+          3+1  VDDCOREM3                      acc=read-write reset=0x00
+          4+1  VDD1V8M0                       acc=read-write reset=0x01
+          5+1  VDD1V8M1                       acc=read-write reset=0x01
+          6+1  VDD1V8M2                       acc=read-write reset=0x01
+          7+1  VDD1V8M3                       acc=read-write reset=0x00
+  0x002c PADVRANGE                        acc=read-write size=32 reset=0x00000000 mask=0x0000003f
+          0+2  VDDIO_0RANGE                   acc=read-write reset=0x00
+          2+2  VDDIO_1RANGE                   acc=read-write reset=0x00
+          4+2  VDDIO_2RANGE                   acc=read-write reset=0x00
+  0x0030 MEMSEQCTRL                       acc=read-write size=32 reset=0x0000003f mask=0x0000003f
+          0+6  MEMSEQNUM                      acc=read-write reset=0x3f
+

@@ -1,0 +1,58 @@
+PERIPHERAL GPIO base=0x40100000 addressBlock.size=[0x27a0]
+  array DIR[%s] n=8 offsets=0x2000..0x201c stride=0x4
+  0x2000 DIR[0]                           acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 DIRP                           acc=read-write reset=0x00000000
+  array MASK[%s] n=8 offsets=0x2080..0x209c stride=0x4
+  0x2080 MASK[0]                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 MASKP                          acc=read-write reset=0x00000000
+  array PIN[%s] n=8 offsets=0x2100..0x211c stride=0x4
+  0x2100 PIN[0]                           acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 PORT                           acc=read-write reset=0x00000000
+  array MPIN[%s] n=8 offsets=0x2180..0x219c stride=0x4
+  0x2180 MPIN[0]                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 MPORTP                         acc=read-write reset=0x00000000
+  array SET[%s] n=8 offsets=0x2200..0x221c stride=0x4
+  0x2200 SET[0]                           acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 SETP                           acc=read-write reset=0x00000000
+  array CLR[%s] n=8 offsets=0x2280..0x229c stride=0x4
+  0x2280 CLR[0]                           acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 CLRP                           acc=write-only reset=0x00000000
+  array NOT[%s] n=8 offsets=0x2300..0x231c stride=0x4
+  0x2300 NOT[0]                           acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 NOTP                           acc=write-only reset=0x00000000
+  array DIRSET[%s] n=8 offsets=0x2380..0x239c stride=0x4
+  0x2380 DIRSET[0]                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 DIRSETP                        acc=write-only reset=0x00000000
+  array DIRCLR[%s] n=8 offsets=0x2400..0x241c stride=0x4
+  0x2400 DIRCLR[0]                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 DIRCLRP                        acc=write-only reset=0x00000000
+  array DIRNOT[%s] n=8 offsets=0x2480..0x249c stride=0x4
+  0x2480 DIRNOT[0]                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 DIRNOTP                        acc=write-only reset=0x00000000
+  array INTENA[%s] n=8 offsets=0x2500..0x251c stride=0x4
+  0x2500 INTENA[0]                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 INT_EN                         acc=read-write reset=0x00000000
+  array INTENB[%s] n=8 offsets=0x2580..0x259c stride=0x4
+  0x2580 INTENB[0]                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 INT_EN                         acc=read-write reset=0x00000000
+  array INTPOL[%s] n=8 offsets=0x2600..0x261c stride=0x4
+  0x2600 INTPOL[0]                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 POL_CTL                        acc=read-write reset=0x00000000
+  array INTEDG[%s] n=8 offsets=0x2680..0x269c stride=0x4
+  0x2680 INTEDG[0]                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 EDGE                           acc=read-write reset=0x00000000
+  array INTSTATA[%s] n=8 offsets=0x2700..0x271c stride=0x4
+  0x2700 INTSTATA[0]                      acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 STATUS                         acc=read-write reset=0x00000000
+  array INTSTATB[%s] n=8 offsets=0x2780..0x279c stride=0x4
+  0x2780 INTSTATB[0]                      acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 STATUS                         acc=read-write reset=0x00000000
+  cluster-array B[%s] n=8 @+0x0 stride=0x20
+  array B_[%s] n=32 offsets=0x0..0x1f stride=0x1
+  0x0000 B[0]_B_[0]                       acc=read-write size=8 reset=0x00000000 mask=0x00000001
+          0+1  PBYTE                          acc=read-write reset=0x00
+  cluster-array W[%s] n=8 @+0x1000 stride=0x80
+  array W_[%s] n=32 offsets=0x1000..0x107c stride=0x4
+  0x1000 W[0]_W_[0]                       acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 PWORD                          acc=read-write reset=0x00000000
+

@@ -1,0 +1,2582 @@
+PERIPHERAL IOPCTL base=0x40004000 addressBlock.size=[0x408]
+  0x0000 PIO0_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0004 PIO0_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0008 PIO0_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x000c PIO0_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0010 PIO0_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0014 PIO0_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0018 PIO0_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x001c PIO0_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0020 PIO0_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0024 PIO0_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0028 PIO0_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x002c PIO0_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0030 PIO0_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0034 PIO0_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0038 PIO0_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x003c PIO0_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0040 PIO0_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0044 PIO0_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0048 PIO0_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x004c PIO0_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0050 PIO0_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0054 PIO0_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0058 PIO0_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x005c PIO0_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0060 PIO0_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0064 PIO0_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0068 PIO0_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x006c PIO0_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0070 PIO0_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0074 PIO0_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0078 PIO0_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x007c PIO0_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0080 PIO1_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0084 PIO1_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0088 PIO1_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x008c PIO1_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0090 PIO1_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0094 PIO1_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0098 PIO1_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x009c PIO1_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00a0 PIO1_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00a4 PIO1_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00a8 PIO1_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00ac PIO1_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00b0 PIO1_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00b4 PIO1_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00b8 PIO1_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00bc PIO1_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00c0 PIO1_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00c4 PIO1_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00c8 PIO1_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00cc PIO1_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00d0 PIO1_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00d4 PIO1_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00d8 PIO1_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00dc PIO1_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00e0 PIO1_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00e4 PIO1_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00e8 PIO1_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00ec PIO1_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00f0 PIO1_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00f4 PIO1_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00f8 PIO1_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x00fc PIO1_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0100 PIO2_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0104 PIO2_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0108 PIO2_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x010c PIO2_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0110 PIO2_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0114 PIO2_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0118 PIO2_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x011c PIO2_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0120 PIO2_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0124 PIO2_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0128 PIO2_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x012c PIO2_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0130 PIO2_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0134 PIO2_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0138 PIO2_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x013c PIO2_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0140 PIO2_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0144 PIO2_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0148 PIO2_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x014c PIO2_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0150 PIO2_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0154 PIO2_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0158 PIO2_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x015c PIO2_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0160 PIO2_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0164 PIO2_25                          acc=read-write size=32 reset=0x00000041 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x01
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x01
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0168 PIO2_26                          acc=read-write size=32 reset=0x00000041 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x01
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x01
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x016c PIO2_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0170 PIO2_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0174 PIO2_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0178 PIO2_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x017c PIO2_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0180 PIO3_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0184 PIO3_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0188 PIO3_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x018c PIO3_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0190 PIO3_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0194 PIO3_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0198 PIO3_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x019c PIO3_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01a0 PIO3_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01a4 PIO3_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01a8 PIO3_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01ac PIO3_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01b0 PIO3_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01b4 PIO3_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01b8 PIO3_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01bc PIO3_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01c0 PIO3_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01c4 PIO3_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01c8 PIO3_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01cc PIO3_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01d0 PIO3_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01d4 PIO3_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01d8 PIO3_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01dc PIO3_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01e0 PIO3_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01e4 PIO3_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01e8 PIO3_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01ec PIO3_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01f0 PIO3_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01f4 PIO3_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01f8 PIO3_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x01fc PIO3_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0200 PIO4_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0204 PIO4_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0208 PIO4_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x020c PIO4_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0210 PIO4_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0214 PIO4_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0218 PIO4_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x021c PIO4_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0220 PIO4_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0224 PIO4_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0228 PIO4_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x022c PIO4_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0230 PIO4_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0234 PIO4_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0238 PIO4_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x023c PIO4_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0240 PIO4_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0244 PIO4_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0248 PIO4_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x024c PIO4_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0250 PIO4_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0254 PIO4_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0258 PIO4_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x025c PIO4_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0260 PIO4_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0264 PIO4_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0268 PIO4_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x026c PIO4_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0270 PIO4_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0274 PIO4_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0278 PIO4_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x027c PIO4_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0280 PIO5_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0284 PIO5_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0288 PIO5_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x028c PIO5_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0290 PIO5_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0294 PIO5_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0298 PIO5_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x029c PIO5_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02a0 PIO5_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02a4 PIO5_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02a8 PIO5_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02ac PIO5_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02b0 PIO5_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02b4 PIO5_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02b8 PIO5_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02bc PIO5_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02c0 PIO5_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02c4 PIO5_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02c8 PIO5_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02cc PIO5_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02d0 PIO5_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02d4 PIO5_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02d8 PIO5_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02dc PIO5_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02e0 PIO5_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02e4 PIO5_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02e8 PIO5_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02ec PIO5_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02f0 PIO5_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02f4 PIO5_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02f8 PIO5_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x02fc PIO5_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0300 PIO6_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0304 PIO6_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0308 PIO6_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x030c PIO6_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0310 PIO6_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0314 PIO6_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0318 PIO6_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x031c PIO6_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0320 PIO6_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0324 PIO6_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0328 PIO6_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x032c PIO6_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0330 PIO6_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0334 PIO6_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0338 PIO6_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x033c PIO6_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0340 PIO6_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0344 PIO6_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0348 PIO6_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x034c PIO6_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0350 PIO6_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0354 PIO6_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0358 PIO6_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x035c PIO6_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0360 PIO6_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0364 PIO6_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0368 PIO6_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x036c PIO6_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0370 PIO6_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0374 PIO6_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0378 PIO6_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x037c PIO6_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0380 PIO7_0                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0384 PIO7_1                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0388 PIO7_2                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x038c PIO7_3                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0390 PIO7_4                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0394 PIO7_5                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0398 PIO7_6                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x039c PIO7_7                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03a0 PIO7_8                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03a4 PIO7_9                           acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03a8 PIO7_10                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03ac PIO7_11                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03b0 PIO7_12                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03b4 PIO7_13                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03b8 PIO7_14                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03bc PIO7_15                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03c0 PIO7_16                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03c4 PIO7_17                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03c8 PIO7_18                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03cc PIO7_19                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03d0 PIO7_20                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03d4 PIO7_21                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03d8 PIO7_22                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03dc PIO7_23                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03e0 PIO7_24                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03e4 PIO7_25                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03e8 PIO7_26                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03ec PIO7_27                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03f0 PIO7_28                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03f4 PIO7_29                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03f8 PIO7_30                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x03fc PIO7_31                          acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0400 FC15_I2C_SCL                     acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+  0x0404 FC15_I2C_SDA                     acc=read-write size=32 reset=0x00000000 mask=0x00000fff
+          0+4  FSEL                           acc=read-write reset=0x00
+          4+1  PUPDENA                        acc=read-write reset=0x00
+          5+1  PUPDSEL                        acc=read-write reset=0x00
+          6+1  IBENA                          acc=read-write reset=0x00
+          7+1  SLEWRATE                       acc=read-write reset=0x00
+          8+1  FULLDRIVE                      acc=read-write reset=0x00
+          9+1  AMENA                          acc=read-write reset=0x00
+         10+1  ODENA                          acc=read-write reset=0x00
+         11+1  IIENA                          acc=read-write reset=0x00
+

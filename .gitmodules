@@ -1,0 +1,15 @@
+[submodule "firmware/vendor/FreeRTOS-Kernel"]
+	path = firmware/vendor/FreeRTOS-Kernel
+	url = https://github.com/nxp-mcuxpresso/FreeRTOS-Kernel.git
+[submodule "firmware/vendor/mcu-sdk-cmsis"]
+	path = firmware/vendor/mcu-sdk-cmsis
+	url = https://github.com/nxp-mcuxpresso/FreeRTOS-Kernel.git
+[submodule "qemu"]
+	path = qemu
+	url = git@github.com:davidswi/qemu.git
+[submodule "legacy-mcux-sdk"]
+	path = legacy-mcux-sdk
+	url = https://github.com/nxp-mcuxpresso/legacy-mcux-sdk.git
+[submodule "legacy-mcux-sdk-examples"]
+	path = legacy-mcux-sdk-examples
+	url = https://github.com/nxp-mcuxpresso/legacy-mcux-sdk-examples.git

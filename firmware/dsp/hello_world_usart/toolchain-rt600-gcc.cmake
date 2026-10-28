@@ -1,0 +1,29 @@
+set(CMAKE_SYSTEM_NAME Generic)
+set(CMAKE_SYSTEM_PROCESSOR xtensa)
+set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
+
+get_filename_component(_REPO_ROOT "${CMAKE_CURRENT_LIST_DIR}/../../.." ABSOLUTE)
+set(RT600_TOOLCHAIN_ROOT "${_REPO_ROOT}/xtensa-nxp_rt600_adsp_zephyr-elf"
+    CACHE PATH "Root of the Zephyr RT600 Xtensa GCC toolchain")
+
+set(_RT600_PREFIX "${RT600_TOOLCHAIN_ROOT}/bin/xtensa-nxp_rt600_adsp_zephyr-elf-")
+set(CMAKE_C_COMPILER "${_RT600_PREFIX}gcc" CACHE FILEPATH "")
+set(CMAKE_ASM_COMPILER "${_RT600_PREFIX}gcc" CACHE FILEPATH "")
+set(CMAKE_AR "${_RT600_PREFIX}ar" CACHE FILEPATH "")
+set(CMAKE_RANLIB "${_RT600_PREFIX}ranlib" CACHE FILEPATH "")
+set(CMAKE_OBJCOPY "${_RT600_PREFIX}objcopy" CACHE FILEPATH "")
+set(CMAKE_OBJDUMP "${_RT600_PREFIX}objdump" CACHE FILEPATH "")
+set(CMAKE_READELF "${_RT600_PREFIX}readelf" CACHE FILEPATH "")
+set(CMAKE_NM "${_RT600_PREFIX}nm" CACHE FILEPATH "")
+set(CMAKE_SIZE "${_RT600_PREFIX}size" CACHE FILEPATH "")
+
+foreach(_tool IN ITEMS CMAKE_C_COMPILER CMAKE_ASM_COMPILER CMAKE_AR CMAKE_RANLIB
+        CMAKE_OBJCOPY CMAKE_OBJDUMP CMAKE_READELF CMAKE_NM CMAKE_SIZE)
+    if(NOT EXISTS "${${_tool}}")
+        message(FATAL_ERROR "Missing RT600 toolchain program: ${${_tool}}")
+    endif()
+endforeach()
+
+unset(_tool)
+unset(_RT600_PREFIX)
+unset(_REPO_ROOT)

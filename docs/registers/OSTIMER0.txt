@@ -1,0 +1,18 @@
+PERIPHERAL OSTIMER0 base=0x40113000 addressBlock.size=[0x20]
+  0x0000 EVTIMERL                         acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 EVTIMER_COUNT_VALUE            acc=read-only reset=0x00000000
+  0x0004 EVTIMERH                         acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 EVTIMER_COUNT_VALUE            acc=read-only reset=0x00000000
+  0x0008 CAPTURE_L                        acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 CAPTURE_VALUE                  acc=read-only reset=0x00000000
+  0x000c CAPTURE_H                        acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 CAPTURE_VALUE                  acc=read-only reset=0x00000000
+  0x0010 MATCH_L                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 MATCH_VALUE                    acc=read-write reset=0x00000000
+  0x0014 MATCH_H                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 MATCH_VALUE                    acc=read-write reset=0x00000000
+  0x001c OSEVENT_CTRL                     acc=read-write size=32 reset=0x00000000 mask=0x00000003
+          0+1  OSTIMER_INTRFLAG               acc=read-write reset=0x00
+          1+1  OSTIMER_INTENA                 acc=read-write reset=0x00
+          2+1  MATCH_WR_RDY                   acc=read-write reset=0x00
+

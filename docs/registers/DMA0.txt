@@ -1,0 +1,92 @@
+PERIPHERAL DMA0 base=0x40104000 addressBlock.size=[0x60c]
+  0x0000 CTRL                             acc=read-write size=32 reset=0x00000000 mask=0x00000001
+          0+1  ENABLE                         acc=read-write reset=0x00
+  0x0004 INTSTAT                          acc=read-only size=32 reset=0x00000000 mask=0x00000006
+          1+1  ACTIVEINT                      acc=read-only reset=0x00
+          2+1  ACTIVEERRINT                   acc=read-only reset=0x00
+  0x0008 SRAMBASE                         acc=read-write size=32 reset=0x00000000 mask=0xfffffe00
+          9+23 OFFSET                         acc=read-write reset=0x000000
+  0x0020 ENABLESET0                       acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 ENA                            acc=read-write reset=0x00000000
+  0x0024 ENABLESET1                       acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  ENABLE32                       acc=read-write reset=0x00
+          1+31 ENABLE63_33                    acc=read-write reset=0x00000000
+  0x0028 ENABLECLR0                       acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 CLR                            acc=write-only reset=0x00000000
+  0x002c ENABLECLR1                       acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 CLR                            acc=write-only reset=0x00000000
+  0x0030 ACTIVE0                          acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 ACT                            acc=read-only reset=0x00000000
+  0x0034 ACTIVE1                          acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+1  ACTIVE32                       acc=read-only reset=0x00
+          1+31 ACTIVE63_33                    acc=read-only reset=0x00000000
+  0x0038 BUSY0                            acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+32 BSY                            acc=read-only reset=0x00000000
+  0x003c BUSY1                            acc=read-only size=32 reset=0x00000000 mask=0xffffffff
+          0+1  BUSY32                         acc=read-only reset=0x00
+          1+31 BUSY63_33                      acc=read-only reset=0x00000000
+  0x0040 ERRINT0                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 ERR                            acc=read-write reset=0x00000000
+  0x0044 ERRINT1                          acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  ERR32                          acc=read-write reset=0x00
+          1+31 ERR63_33                       acc=read-write reset=0x00000000
+  0x0048 INTENSET0                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 INTEN                          acc=read-write reset=0x00000000
+  0x004c INTENSET1                        acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  INTEN32                        acc=read-write reset=0x00
+          1+31 INTEN63_33                     acc=read-write reset=0x00000000
+  0x0050 INTENCLR0                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 CLR                            acc=write-only reset=0x00000000
+  0x0054 INTENCLR1                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 CLR                            acc=write-only reset=0x00000000
+  0x0058 INTA0                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 IA                             acc=read-write reset=0x00000000
+  0x005c INTA1                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  INTA32                         acc=read-write reset=0x00
+          1+31 INTA63_33                      acc=read-write reset=0x00000000
+  0x0060 INTB0                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+32 IB                             acc=read-write reset=0x00000000
+  0x0064 INTB1                            acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          0+1  INTB32                         acc=read-write reset=0x00
+          1+31 INTB63_33                      acc=read-write reset=0x00000000
+  0x0068 SETVALID0                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 SV                             acc=write-only reset=0x00000000
+  0x006c SETVALID1                        acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  SETVALID32                     acc=write-only reset=0x00
+          1+31 SETVALID63_33                  acc=write-only reset=0x00000000
+  0x0070 SETTRIG0                         acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 TRIG                           acc=write-only reset=0x00000000
+  0x0074 SETTRIG1                         acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  SETTRIG32                      acc=write-only reset=0x00
+          1+31 SETTRIG63_33                   acc=write-only reset=0x00000000
+  0x0078 ABORT0                           acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+32 ABORTCTRL                      acc=write-only reset=0x00000000
+  0x007c ABORT1                           acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  ABORT32                        acc=write-only reset=0x00
+          1+31 ABORT63_33                     acc=write-only reset=0x00000000
+  cluster-array CHANNEL[%s] n=33 @+0x400 stride=0x10
+  0x0400 CHANNEL[0]_CFG                   acc=read-write size=32 reset=0x00000000 mask=0x0007cf73
+          0+1  PERIPHREQEN                    acc=read-write reset=0x00
+          1+1  HWTRIGEN                       acc=read-write reset=0x00
+          4+1  TRIGPOL                        acc=read-write reset=0x00
+          5+1  TRIGTYPE                       acc=read-write reset=0x00
+          6+1  TRIGBURST                      acc=read-write reset=0x00
+          8+4  BURSTPOWER                     acc=read-write reset=0x00
+         14+1  SRCBURSTWRAP                   acc=read-write reset=0x00
+         15+1  DSTBURSTWRAP                   acc=read-write reset=0x00
+         16+3  CHPRIORITY                     acc=read-write reset=0x00
+  0x0404 CHANNEL[0]_CTLSTAT               acc=read-only size=32 reset=0x00000000 mask=0x00000005
+          0+1  VALIDPENDING                   acc=read-only reset=0x00
+          2+1  TRIG                           acc=read-only reset=0x00
+  0x0408 CHANNEL[0]_XFERCFG               acc=read-write size=32 reset=0x00000000 mask=0x03fff33f
+          0+1  CFGVALID                       acc=read-write reset=0x00
+          1+1  RELOAD                         acc=read-write reset=0x00
+          2+1  SWTRIG                         acc=read-write reset=0x00
+          3+1  CLRTRIG                        acc=read-write reset=0x00
+          4+1  SETINTA                        acc=read-write reset=0x00
+          5+1  SETINTB                        acc=read-write reset=0x00
+          8+2  WIDTH                          acc=read-write reset=0x00
+         12+2  SRCINC                         acc=read-write reset=0x00
+         14+2  DSTINC                         acc=read-write reset=0x00
+         16+10 XFERCOUNT                      acc=read-write reset=0x000
+

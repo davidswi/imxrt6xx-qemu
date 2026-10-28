@@ -1,0 +1,13 @@
+PERIPHERAL SEMA42 base=0x40112000 addressBlock.size=[0x44]
+  array GATE%s n=16 offsets=0x0..0xf stride=0x1
+  0x0000 GATE3                            acc=read-write size=8 reset=0x00000000 mask=0x000000ff
+          0+4  GTFSM                          acc=read-write reset=0x00
+  0x0042 RSTGT_R                          acc=read-only size=16 reset=0x00000000 mask=0x0000ffff
+          0+8  RSTGTN                         acc=read-only reset=0x00
+          8+4  RSTGMS                         acc=read-only reset=0x00
+         12+2  RSTGSM                         acc=read-only reset=0x00
+         14+2  ROZ                            acc=read-only reset=0x00
+  0x0042 RSTGT_W                          acc=write-only size=16 reset=0x00000000 mask=0x00000000
+          0+8  RSTGTN                         acc=write-only reset=0x00
+          8+8  RSTGDP                         acc=write-only reset=0x00
+

@@ -1,0 +1,247 @@
+PERIPHERAL CLKCTL1 base=0x40021000 addressBlock.size=[0x7c8]
+  0x0010 PSCCTL0                          acc=read-write size=32 reset=0x00000000 mask=0x09c0ff00
+          8+1  FC0_CLK                        acc=read-write reset=0x00
+          9+1  FC1_CLK                        acc=read-write reset=0x00
+         10+1  FC2_CLK                        acc=read-write reset=0x00
+         11+1  FC3_CLK                        acc=read-write reset=0x00
+         12+1  FC4_CLK                        acc=read-write reset=0x00
+         13+1  FC5_CLK                        acc=read-write reset=0x00
+         14+1  FC6_CLK                        acc=read-write reset=0x00
+         15+1  FC7_CLK                        acc=read-write reset=0x00
+         22+1  FC14_SPI_CLK                   acc=read-write reset=0x00
+         23+1  FC15_I2C_CLK                   acc=read-write reset=0x00
+         24+1  DMIC0_CLK                      acc=read-write reset=0x00
+         27+1  OSEVENT_TIMER_CLK              acc=read-write reset=0x00
+  0x0014 PSCCTL1                          acc=read-write size=32 reset=0x00000000 mask=0xb18100ff
+          0+1  HSGPIO0_CLK                    acc=read-write reset=0x00
+          1+1  HSGPIO1_CLK                    acc=read-write reset=0x00
+          2+1  HSGPIO2_CLK                    acc=read-write reset=0x00
+          3+1  HSGPIO3_CLK                    acc=read-write reset=0x00
+          4+1  HSGPIO4_CLK                    acc=read-write reset=0x00
+          5+1  HSGPIO5_CLK                    acc=read-write reset=0x00
+          6+1  HSGPIO6_CLK                    acc=read-write reset=0x00
+          7+1  HSGPIO7_CLK                    acc=read-write reset=0x00
+         16+1  CRC_CLK                        acc=read-write reset=0x00
+         23+1  DMAC0_CLK                      acc=read-write reset=0x00
+         24+1  DMAC1_CLK                      acc=read-write reset=0x00
+         28+1  MU_CLK                         acc=read-write reset=0x00
+         29+1  SEMA_CLK                       acc=read-write reset=0x00
+         31+1  FREQME_CLK                     acc=read-write reset=0x00
+  0x0018 PSCCTL2                          acc=read-write size=32 reset=0x00000000 mask=0xc001059f
+          0+1  CT32BIT0_CLK                   acc=read-write reset=0x00
+          1+1  CT32BIT1_CLK                   acc=read-write reset=0x00
+          2+1  CT32BIT2_CLK                   acc=read-write reset=0x00
+          3+1  CT32BIT3_CLK                   acc=read-write reset=0x00
+          4+1  CT32BIT4_CLK                   acc=read-write reset=0x00
+          7+1  RTC_LITE_CLK                   acc=read-write reset=0x00
+          8+1  MRT0_CLK                       acc=read-write reset=0x00
+         10+1  WWDT1_CLK                      acc=read-write reset=0x00
+         16+1  I3C0_CLK                       acc=read-write reset=0x00
+         30+1  GPIOINTCTL_CLK                 acc=read-write reset=0x00
+         31+1  PIMCTL_CLK                     acc=read-write reset=0x00
+  0x0040 PSCCTL0_SET                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          8+1  FC0_CLK_SET                    acc=write-only reset=0x00
+          9+1  FC1_CLK_SET                    acc=write-only reset=0x00
+         10+1  FC2_CLK_SET                    acc=write-only reset=0x00
+         11+1  FC3_CLK_SET                    acc=write-only reset=0x00
+         12+1  FC4_CLK_SET                    acc=write-only reset=0x00
+         13+1  FC5_CLK_SET                    acc=write-only reset=0x00
+         14+1  FC6_CLK_SET                    acc=write-only reset=0x00
+         15+1  FC7_CLK_SET                    acc=write-only reset=0x00
+         22+1  FC14_SPI_CLK_SET               acc=write-only reset=0x00
+         23+1  FC15_I2C_CLK_SET               acc=write-only reset=0x00
+         24+1  DMIC0_CLK_SET                  acc=write-only reset=0x00
+         27+1  OSEVENT_TIMER_CLK_SET          acc=write-only reset=0x00
+  0x0044 PSCCTL1_SET                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  HSGPIO0_CLK_SET                acc=write-only reset=0x00
+          1+1  HSGPIO1_CLK_SET                acc=write-only reset=0x00
+          2+1  HSGPIO2_CLK_SET                acc=write-only reset=0x00
+          3+1  HSGPIO3_CLK_SET                acc=write-only reset=0x00
+          4+1  HSGPIO4_CLK_SET                acc=write-only reset=0x00
+          5+1  HSGPIO5_CLK_SET                acc=write-only reset=0x00
+          6+1  HSGPIO6_CLK_SET                acc=write-only reset=0x00
+          7+1  HSGPIO7_CLK_SET                acc=write-only reset=0x00
+         16+1  CRC_CLK_SET                    acc=write-only reset=0x00
+         23+1  DMAC0_CLK_SET                  acc=write-only reset=0x00
+         24+1  DMAC1_CLK_SET                  acc=write-only reset=0x00
+         28+1  MU_CLK_SET                     acc=write-only reset=0x00
+         29+1  SEMA_CLK_SET                   acc=write-only reset=0x00
+         31+1  FREQME_CLK_SET                 acc=write-only reset=0x00
+  0x0048 PSCCTL2_SET                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  CT32BIT0_CLK_SET               acc=write-only reset=0x00
+          1+1  CT32BIT1_CLK_SET               acc=write-only reset=0x00
+          2+1  CT32BIT2_CLK_SET               acc=write-only reset=0x00
+          3+1  CT32BIT3_CLK_SET               acc=write-only reset=0x00
+          4+1  CT32BIT4_CLK_SET               acc=write-only reset=0x00
+          7+1  RTC_LITE_CLK_SET               acc=write-only reset=0x00
+          8+1  MRT0_CLK_SET                   acc=write-only reset=0x00
+         10+1  WWDT1_CLK_SET                  acc=write-only reset=0x00
+         16+1  I3C0_CLK_SET                   acc=write-only reset=0x00
+         30+1  GPIOINTCTL_CLK_SET             acc=write-only reset=0x00
+         31+1  PIMCTL_CLK_SET                 acc=write-only reset=0x00
+  0x0070 PSCCTL0_CLR                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          8+1  FC0_CLK_CLR                    acc=write-only reset=0x00
+          9+1  FC1_CLK_CLR                    acc=write-only reset=0x00
+         10+1  FC2_CLK_CLR                    acc=write-only reset=0x00
+         11+1  FC3_CLK_CLR                    acc=write-only reset=0x00
+         12+1  FC4_CLK_CLR                    acc=write-only reset=0x00
+         13+1  FC5_CLK_CLR                    acc=write-only reset=0x00
+         14+1  FC6_CLK_CLR                    acc=write-only reset=0x00
+         15+1  FC7_CLK_CLR                    acc=write-only reset=0x00
+         22+1  FC14_SPI_CLK_CLR               acc=write-only reset=0x00
+         23+1  FC15_I2C_CLK_CLR               acc=write-only reset=0x00
+         24+1  DMIC0_CLK_CLR                  acc=write-only reset=0x00
+         27+1  OSEVENT_TIMER_CLK_CLR          acc=write-only reset=0x00
+  0x0074 PSCCTL1_CLR                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  HSGPIO0_CLK_CLR                acc=write-only reset=0x00
+          1+1  HSGPIO1_CLK_CLR                acc=write-only reset=0x00
+          2+1  HSGPIO2_CLK_CLR                acc=write-only reset=0x00
+          3+1  HSGPIO3_CLK_CLR                acc=write-only reset=0x00
+          4+1  HSGPIO4_CLK_CLR                acc=write-only reset=0x00
+          5+1  HSGPIO5_CLK_CLR                acc=write-only reset=0x00
+          6+1  HSGPIO6_CLK_CLR                acc=write-only reset=0x00
+          7+1  HSGPIO7_CLK_CLR                acc=write-only reset=0x00
+         16+1  CRC_CLK_CLR                    acc=write-only reset=0x00
+         23+1  DMAC0_CLK_CLR                  acc=write-only reset=0x00
+         24+1  DMAC1_CLK_CLR                  acc=write-only reset=0x00
+         28+1  MU_CLK_CLR                     acc=write-only reset=0x00
+         29+1  SEMA_CLK_CLR                   acc=write-only reset=0x00
+         31+1  FREQME_CLK_CLR                 acc=write-only reset=0x00
+  0x0078 PSCCTL2_CLR                      acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  CT32BIT0_CLK_CLR               acc=write-only reset=0x00
+          1+1  CT32BIT1_CLK_CLR               acc=write-only reset=0x00
+          2+1  CT32BIT2_CLK_CLR               acc=write-only reset=0x00
+          3+1  CT32BIT3_CLK_CLR               acc=write-only reset=0x00
+          4+1  CT32BIT4_CLK_CLR               acc=write-only reset=0x00
+          7+1  RTC_LITE_CLK_CLR               acc=write-only reset=0x00
+          8+1  MRT0_CLK_CLR                   acc=write-only reset=0x00
+         10+1  WWDT1_CLK_CLR                  acc=write-only reset=0x00
+         16+1  I3C0_CLK_CLR                   acc=write-only reset=0x00
+         30+1  GPIOINTCTL_CLK_CLR             acc=write-only reset=0x00
+         31+1  PIMCTL_CLK_CLR                 acc=write-only reset=0x00
+  0x0200 AUDIOPLL0CLKSEL                  acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0204 AUDIOPLL0CTL0                    acc=read-write size=32 reset=0x00160002 mask=0x00ff387b
+          0+1  BYPASS                         acc=read-write reset=0x00
+          1+1  RESET                          acc=read-write reset=0x01
+         13+1  HOLDRINGOFF_ENA                acc=read-write reset=0x00
+         16+8  MULT                           acc=read-write reset=0x16
+  0x020c AUDIOPLL0LOCKTIMEDIV2            acc=read-write size=32 reset=0x0000cafe mask=0x0000ffff
+          0+16 LOCKTIMEDIV2                   acc=read-write reset=0xcafe
+  0x0210 AUDIOPLL0NUM                     acc=read-write size=32 reset=0x04dd2f15 mask=0x3fffffff
+          0+30 NUM                            acc=read-write reset=0x04dd2f15
+  0x0214 AUDIOPLL0DENOM                   acc=read-write size=32 reset=0x1fffffdb mask=0x3fffffff
+          0+30 DENOM                          acc=read-write reset=0x1fffffdb
+  0x0218 AUDIOPLL0PFD                     acc=read-write size=32 reset=0x80808080 mask=0xffffffff
+          0+6  PFD0                           acc=read-write reset=0x00
+          6+1  PFD0_CLKRDY                    acc=read-write reset=0x00
+          7+1  PFD0_CLKGATE                   acc=read-write reset=0x01
+          8+6  PFD1                           acc=read-write reset=0x00
+         14+1  PFD1_CLKRDY                    acc=read-write reset=0x00
+         15+1  PFD1_CLKGATE                   acc=read-write reset=0x01
+         16+6  PFD2                           acc=read-write reset=0x00
+         22+1  PFD2_CLKRDY                    acc=read-write reset=0x00
+         23+1  PFD2_CLKGATE                   acc=read-write reset=0x01
+         24+6  PFD3                           acc=read-write reset=0x00
+         30+1  PFD3_CLKRDY                    acc=read-write reset=0x00
+         31+1  PFD3_CLKGATE                   acc=read-write reset=0x01
+  0x0240 AUDIOPLLCLKDIV                   acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0400 DSPCPUCLKDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0404 DSPMAINRAMCLKDIV                 acc=read-write size=32 reset=0x00000001 mask=0x00000003
+          0+2  DSPMRAMCLKDIV                  acc=read-write reset=0x01
+  0x0430 DSPCPUCLKSELA                    acc=read-write size=32 reset=0x00000000 mask=0x00000003
+          0+2  SEL                            acc=read-write reset=0x00
+  0x0434 DSPCPUCLKSELB                    acc=read-write size=32 reset=0x00000000 mask=0x00000003
+          0+2  SEL                            acc=read-write reset=0x00
+  0x0480 OSEVENTFCLKSEL                   acc=read-write size=32 reset=0x00000000 mask=0x00000003
+          0+3  SEL                            acc=read-write reset=0x00
+  0x06c0 FRG14CLKSEL                      acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x06c4 FRG14CTL                         acc=read-write size=32 reset=0x000000ff mask=0x0000ffff
+          0+8  DIV                            acc=read-write reset=0xff
+          8+8  MULT                           acc=read-write reset=0x00
+  0x06c8 FC14FCLKSEL                      acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x06e0 FRG15CLKSEL                      acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x06e4 FRG15CTL                         acc=read-write size=32 reset=0x000000ff mask=0x0000ffff
+          0+8  DIV                            acc=read-write reset=0xff
+          8+8  MULT                           acc=read-write reset=0x00
+  0x06e8 FC15FCLKSEL                      acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x06fc FRGPLLCLKDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0700 DMIC0FCLKSEL                     acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0704 DMIC0FCLKDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  array CT32BITFCLKSEL%s n=5 offsets=0x720..0x730 stride=0x4
+  0x0720 CT32BITFCLKSEL0                  acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0740 AUDIOMCLKSEL                     acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0744 AUDIOMCLKDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0760 CLKOUTSEL0                       acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0764 CLKOUTSEL1                       acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0768 CLKOUTDIV                        acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0780 I3C0FCLKSEL                      acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0784 I3C0FCLKSTCSEL                   acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0788 I3C0FCLKSTCDIV                   acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x078c I3C0FCLKSDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x0790 I3C0FCLKDIV                      acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  0x07a0 WDT1FCLKSEL                      acc=read-write size=32 reset=0x00000000 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x00
+  0x07c0 ACMP0FCLKSEL                     acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x07c4 ACMP0FCLKDIV                     acc=read-write size=32 reset=0x40000000 mask=0xe00000ff
+          0+8  DIV                            acc=read-write reset=0x00
+         29+1  RESET                          acc=read-write reset=0x00
+         30+1  HALT                           acc=read-write reset=0x01
+         31+1  REQFLAG                        acc=read-write reset=0x00
+  cluster-array FLEXCOMM[%s] n=8 @+0x500 stride=0x20
+  0x0500 FLEXCOMM[0]_FRGCLKSEL            acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+  0x0504 FLEXCOMM[0]_FRGCTL               acc=read-write size=32 reset=0x000000ff mask=0x0000ffff
+          0+8  DIV                            acc=read-write reset=0xff
+          8+8  MULT                           acc=read-write reset=0x00
+  0x0508 FLEXCOMM[0]_FCFCLKSEL            acc=read-write size=32 reset=0x00000007 mask=0x00000007
+          0+3  SEL                            acc=read-write reset=0x07
+

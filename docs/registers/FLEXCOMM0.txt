@@ -1,0 +1,14 @@
+PERIPHERAL FLEXCOMM0 base=0x40106000 addressBlock.size=[0x1000]
+  0x0ff8 PSELID                           acc=read-write size=32 reset=0x00101000 mask=0xfffff0ff
+          0+3  PERSEL                         acc=read-write reset=0x00
+          3+1  LOCK                           acc=read-write reset=0x00
+          4+1  USARTPRESENT                   acc=read-only reset=0x00
+          5+1  SPIPRESENT                     acc=read-only reset=0x00
+          6+1  I2CPRESENT                     acc=read-only reset=0x00
+          7+1  I2SPRESENT                     acc=read-only reset=0x00
+         12+20 ID                             acc=read-only reset=0x00101
+  0x0ffc PID                              acc=read-write size=32 reset=0x00000000 mask=0xffffffff
+          8+4  Minor_Rev                      acc=read-only reset=0x00
+         12+4  Major_Rev                      acc=read-only reset=0x00
+         16+16 ID                             acc=read-only reset=0x0000
+

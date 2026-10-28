@@ -1,0 +1,74 @@
+PERIPHERAL RSTCTL0 base=0x40000000 addressBlock.size=[0x7c]
+  0x0000 SYSRSTSTAT                       acc=read-write size=32 reset=0x00000001 mask=0x000000f1
+          0+1  VDD_POR                        acc=read-write reset=0x01
+          4+1  PAD_RESET                      acc=read-write reset=0x00
+          5+1  ARM_APD_RESET                  acc=read-write reset=0x00
+          6+1  WDT0_RESET                     acc=read-write reset=0x00
+          7+1  WDT1_RESET                     acc=read-write reset=0x00
+  0x0010 PRSTCTL0                         acc=read-write size=32 reset=0x01f11f02 mask=0x01f11f02
+          1+1  HIFI_DSP                       acc=read-write reset=0x01
+          8+1  POWERQUAD                      acc=read-write reset=0x01
+          9+1  CASPER                         acc=read-write reset=0x01
+         10+1  HASHCRYPT                      acc=read-write reset=0x01
+         11+1  PUF                            acc=read-write reset=0x01
+         12+1  RNG                            acc=read-write reset=0x01
+         16+1  FLEXSPI_OTFAD                  acc=read-write reset=0x01
+         20+1  USBHS_PHY                      acc=read-write reset=0x01
+         21+1  USBHS_DEVICE                   acc=read-write reset=0x01
+         22+1  USBHS_HOST                     acc=read-write reset=0x01
+         23+1  USBHS_SRAM                     acc=read-write reset=0x01
+         24+1  SCT                            acc=read-write reset=0x01
+  0x0014 PRSTCTL1                         acc=read-write size=32 reset=0x0101810c mask=0xffffffff
+          2+1  SDIO0                          acc=read-write reset=0x01
+          3+1  SDIO1                          acc=read-write reset=0x01
+         15+1  ACMP0                          acc=read-write reset=0x01
+         16+1  ADC0                           acc=read-write reset=0x01
+         24+1  SHSGPIO0                       acc=read-write reset=0x01
+  0x0018 PRSTCTL2                         acc=read-write size=32 reset=0x1c000001 mask=0x1c000003
+          0+1  UTICK0                         acc=read-write reset=0x01
+          1+1  WWDT0                          acc=read-write reset=0x00
+  0x0040 PRSTCTL0_SET                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          1+1  HIFI_DSP                       acc=write-only reset=0x00
+          8+1  POWERQUAD                      acc=write-only reset=0x00
+          9+1  CASPER                         acc=write-only reset=0x00
+         10+1  HASHCRYPT                      acc=write-only reset=0x00
+         11+1  PUF                            acc=write-only reset=0x00
+         12+1  RNG                            acc=write-only reset=0x00
+         16+1  FLEXSPI_OTFAD                  acc=write-only reset=0x00
+         20+1  USBHS_PHY                      acc=write-only reset=0x00
+         21+1  USBHS_DEVICE                   acc=write-only reset=0x00
+         22+1  USBHS_HOST                     acc=write-only reset=0x00
+         23+1  USBHS_SRAM                     acc=write-only reset=0x00
+         24+1  SCT                            acc=write-only reset=0x00
+  0x0044 PRSTCTL1_SET                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          2+1  SDIO0                          acc=write-only reset=0x00
+          3+1  SDIO1                          acc=write-only reset=0x00
+         15+1  ACMP0                          acc=write-only reset=0x00
+         16+1  ADC0                           acc=write-only reset=0x00
+         24+1  SHSGPIO0                       acc=write-only reset=0x00
+  0x0048 PRSTCTL2_SET                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  UTICK0                         acc=write-only reset=0x00
+          1+1  WWDT0                          acc=write-only reset=0x00
+  0x0070 PRSTCTL0_CLR                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          1+1  HIFI_DSP                       acc=write-only reset=0x00
+          8+1  POWERQUAD                      acc=write-only reset=0x00
+          9+1  CASPER                         acc=write-only reset=0x00
+         10+1  HASHCRYPT                      acc=write-only reset=0x00
+         11+1  PUF                            acc=write-only reset=0x00
+         12+1  RNG                            acc=write-only reset=0x00
+         16+1  FLEXSPI_OTFAD                  acc=write-only reset=0x00
+         20+1  USBHS_PHY                      acc=write-only reset=0x00
+         21+1  USBHS_DEVICE                   acc=write-only reset=0x00
+         22+1  USBHS_HOST                     acc=write-only reset=0x00
+         23+1  USBHS_SRAM                     acc=write-only reset=0x00
+         24+1  SCT                            acc=write-only reset=0x00
+  0x0074 PRSTCTL1_CLR                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          2+1  SDIO0                          acc=write-only reset=0x00
+          3+1  SDIO1                          acc=write-only reset=0x00
+         15+1  ACMP0                          acc=write-only reset=0x00
+         16+1  ADC0                           acc=write-only reset=0x00
+         24+1  SHSGPIO0                       acc=write-only reset=0x00
+  0x0078 PRSTCTL2_CLR                     acc=write-only size=32 reset=0x00000000 mask=0x00000000
+          0+1  UTICK0                         acc=write-only reset=0x00
+          1+1  WWDT0                          acc=write-only reset=0x00
+

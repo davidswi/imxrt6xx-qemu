@@ -1,0 +1,1 @@
+According to https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_components_pg.html#element_component, CMSIS Pack schema require at least one file inside the component, add dummy file here

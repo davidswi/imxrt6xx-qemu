@@ -13,3 +13,6 @@
 [submodule "legacy-mcux-sdk-examples"]
 	path = legacy-mcux-sdk-examples
 	url = https://github.com/nxp-mcuxpresso/legacy-mcux-sdk-examples.git
+[submodule "firmware/vendor/freertos-kernel-upstream"]
+	path = firmware/vendor/freertos-kernel-upstream
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
